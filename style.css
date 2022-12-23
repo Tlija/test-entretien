@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.navbar{
+    
+    width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    background-color: rgba(12, 11, 11, 0.5);
+    
+}
+ header{
+   
+    background-image: url('./images/slide.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    background-position: auto;
+    width: 100%;
+    height: 400px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+}
+.navbar ul li{
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: blanchedalmond;
+    padding-top: 75px;
+    cursor: pointer;
+}
+.sub-menu1{
+    display: none;
+
+}
+
+.navbar ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    border: solid 1px transparent;
+    width:100px;
+    
+}
+.navbar ul li:hover .sub-menu1 ul {
+    display: block;
+    /* background-color: rgb(232, 106, 56); */
+}
+.navbar ul li:hover .sub-menu1 ul  a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    border: solid 1px coral;
+     padding:1.8px;
+     cursor: pointer;
+    background-color: coral;
+
+    
+}
+.suite{
+    text-decoration: none;
+    color:blanchedalmond;
+}
+.container{
+    height: 100%;
+    background-image:url('./images/bg-content.jpg');
+background-size: cover;
+}
+.container h2 {
+    text-align: center;
+    color:rgb(107, 12, 12) ;
+    font-weight: 600;
+}
+.container h3{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 45px;
+    font-weight: 600;
+    color: rgba(252, 91, 33, 0.856);
+    text-align: center;
+}
+.underline hr{
+    width: 30%;
+    padding: 2.5px;
+    color: gainsboro;
+    padding-left: 50%;
+}
+.underline{
+    width: 75%;
+    padding-left: 20%;
+
+}
+
+.text p{
+    color: gray;
+    text-align:center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height:80px ;
+    line-height :35px;
+    margin-left: 25%;
+    margin-top: 65px;
+}
+.carts{
+display: flex;
+justify-content:center;
+padding-top: 80px;
+margin: 30px;
+padding-left: 30px;
+}
+.card-body1{
+    background-color: rgba(243, 215, 154, 0.644); 
+    width: 22%;
+    justify-content: center;
+    border-bottom: solid 5px gray;
+   
+}
+.card-body1 img{
+margin: 10px;
+width: 90%;
+
+}
+.line{
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.line hr{
+    width: 85%;
+
+}
+.card-body1 h2{
+    padding-top: 10px;
+    color: rgb(147, 114, 114);
+    justify-content: center;
+}
+.card-body1 p {
+    text-align: center;
+}
+ .sav{
+    text-align: center;
+    padding-left: 70px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.card-body1{
+    padding: 20px;
+    margin: 20px;
+}
+.card-body1:hover{
+    cursor: pointer;
+    background-color: rgba(183, 170, 170, 0.685);
+    color: blanchedalmond;
+}
+.card-body1 h2:hover{
+    color: bisque;
+}
+.plus{
+   padding-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+.plus h2{
+    color: rgba(252, 91, 33, 0.856);
+    font-size: 20px;
+    padding: 10px;
+}
+.plus hr{
+    margin-top: 25px;
+}
+ hr{
+    
+        border: none;
+        border-top: 3px double rgb(192, 183, 183);
+        color: rgb(173, 163, 163);
+        overflow: visible;
+        text-align: center;
+        height: 20px;
+   
+}
+.galerie{
+    background-image: url('./images/bg-galerie.jpg');
+}
+.galerie .galle{
+    display:flex;
+    justify-content: center;
+margin: 20px;
+}
+
+.imggal{
+    background-color:#fff;
+    margin: 10px;
+}
+.imggal img{
+    padding: 10px;
+    opacity: 0.8;
+}
+.imggal img:hover{
+    background-image: url('./images/hover-box-galerie.png');
+    opacity:1;
+     cursor: pointer;
+}
+.img-gal1{
+    padding-top: 70px;
+}
+.galerie h3{
+    color: brown;
+}
+.pluss{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.pluss hr{
+
+    margin-top: 38px;
+}
+.pluss  h3{
+    margin: 20px;
+}
+
+.footer{
+display: flex;
+justify-content: space-around;
+padding-left:50px;
+/* height: 100%; */
+background-image: url('./images/motif-footer.jpg');
+background-size: cover;
+
+
+}
+.contatez{
+    display: flex;
+    padding-right: 20%;
+}
+.contatez ul li{
+    list-style-type: none;
+    padding: 5px;
+    color: gainsboro;
+
+}
+.localisation{
+    margin-left: 50px;
+}
+
+.newselecter{
+    width: 22%;
+    height:100%;
+    color:gainsboro;
+
+    
+}
+.newselecter input{
+    width: 62%;
+    height:30px;
+    border: transparent;
+
+
+}
+.localisation h3{
+    color: gainsboro;
+}
+.newselecter .btn{
+    height: 35px;
+    width: 100px;
+    padding-right: 15px;
+    background-color:orange;
+    color: blanchedalmond;
+    border: transparent;
+    cursor: pointer;
+}
+.tel{
+    padding-top:15%;
+    margin-right: 30px;
+}
+
+.tel ul li{
+    list-style-type: none;
+    padding: 5px;
+
+}
+#orange{
+    color: orange;
+}
+.image{
+    width: 40px;
+    
+}
+.media{
+    margin-top: 23%;
+    padding-left: 90px;
+   
+}
